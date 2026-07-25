@@ -233,7 +233,7 @@ textarea.form-control {
   }
   
   .booking-card {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.25rem;
   }
   
   .review-item {
@@ -242,5 +242,25 @@ textarea.form-control {
   
   .review-label {
     margin-bottom: 0.25rem;
+  }
+  
+  /* Progress Bar Fixes for Mobile */
+  .booking-progress {
+    padding: 0;
+  }
+  .progress-step span {
+    font-size: 0.75rem;
+    text-align: center;
+    max-width: 70px;
+    line-height: 1.2;
+  }
+  .step-circle {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+  .progress-line {
+    margin: 0 0.5rem;
+    margin-bottom: 22px;
   }
 }

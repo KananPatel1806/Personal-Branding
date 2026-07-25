@@ -650,4 +650,22 @@
   .hero-actions .btn {
     width: 100%;
   }
+  .hero-animated-visuals {
+    min-height: 250px;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .floating-card {
+    position: relative;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 100%;
+    max-width: 320px;
+  }
+  .abstract-glow {
+    width: 250px; height: 250px;
+  }
 }
