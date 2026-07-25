@@ -32,14 +32,17 @@ export default function Home() {
           <div className="shape shape-3"></div>
         </div>
         <div className="container hero-container animate-fade-in">
-          <div className="hero-content">
-            <span className="badge-premium">👨‍⚕️ PEDIATRIC EXPERT</span>
-            <h1 className="hero-title">Dr. Sunil Patel</h1>
-            <p className="hero-subtitle">
-              Neonatal and Pediatric Intensivist • 15 Years Experience
-              <br/><br/>
-              <span className="hero-quote">"Caring for Children. Supporting Families. Your child's health is my priority. I am here 24/7."</span>
-            </p>
+            <div className="hero-text-content">
+              <span className="badge-premium">DR. SUNIL PATEL • PEDIATRIC INTENSIVIST</span>
+              <h1>Expert Care For Your Little Ones.</h1>
+              <p className="hero-subtitle">
+                With over 15 years of specialized experience in neonatal and pediatric intensive care, I provide world-class, compassionate medical treatment for your child when they need it most.
+              </p>
+              <div style={{marginBottom: '2.5rem'}}>
+                <p className="hero-quote">
+                  "Your child's health is my life's mission. I am here for you 24/7."
+                </p>
+              </div>
             <div className="hero-actions">
               <a href="/#book-appointment" className="btn btn-primary btn-lg">
                 <Calendar size={20} />
@@ -100,8 +103,8 @@ export default function Home() {
       <section className="why-choose section" id="about">
         <div className="container reveal">
           <div className="section-header text-center">
-            <h2>Why Parents Choose Dr. Sunil Patel</h2>
-            <p className="text-muted">Trusted by thousands of families for premium pediatric care.</p>
+            <h2>Why Trust Me With Your Child's Health?</h2>
+            <p className="text-muted">A personal commitment to delivering the highest standard of pediatric care.</p>
           </div>
           
           <div className="features-grid">
@@ -138,11 +141,12 @@ export default function Home() {
             </div>
           </div>
           <div className="doctor-details">
-            <span className="badge-premium">ABOUT DR. SUNIL PATEL</span>
-            <h2>Neonatal and Pediatric Intensivist</h2>
+            <span className="badge-premium">MEET YOUR DOCTOR</span>
+            <h2>Hi, I'm Dr. Sunil Patel</h2>
+            <h4 className="designation text-primary" style={{marginBottom: '1.5rem', fontWeight: 600}}>Neonatal and Pediatric Intensivist</h4>
             
             <p className="doctor-message">
-              "My mission is to provide the highest standard of pediatric care with empathy and dedication. Every child deserves a healthy start, and I am here to support your family at every step."
+              As a dedicated pediatric specialist, I have spent the last 15 years helping children overcome complex medical challenges. My approach combines advanced medical science with genuine, heartfelt compassion for both the child and the parents.
             </p>
 
             <div className="doctor-creds mt-4">
@@ -195,7 +199,8 @@ export default function Home() {
       <section className="services-section section bg-light" id="services">
         <div className="container reveal">
           <div className="section-header text-center">
-            <h2>Specialized Services</h2>
+            <h2>How I Can Help Your Child</h2>
+            <p className="text-muted">Comprehensive pediatric solutions under one roof.</p>
           </div>
           
           <div className="services-grid">
@@ -248,7 +253,7 @@ export default function Home() {
       <section className="testimonials section bg-light">
         <div className="container reveal">
           <div className="section-header text-center">
-            <h2>What Parents Say</h2>
+            <h2>Stories From Happy Families</h2>
             <div className="stars" style={{color: 'var(--color-accent)', margin: '1rem 0'}}>
               <Star fill="currentColor" size={24}/><Star fill="currentColor" size={24}/><Star fill="currentColor" size={24}/><Star fill="currentColor" size={24}/><Star fill="currentColor" size={24}/>
             </div>

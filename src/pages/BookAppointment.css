@@ -11,7 +11,7 @@
 /* Progress Bar */
 .booking-progress {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 3rem;
   padding: 0 1rem;
@@ -61,7 +61,7 @@
   height: 4px;
   background-color: var(--color-border);
   margin: 0 1rem;
-  margin-bottom: 25px; /* Aligned with circles */
+  margin-top: 18px; /* Perfectly aligns with center of 40px circle */
   border-radius: 2px;
   transition: all var(--transition-normal);
 }
@@ -261,6 +261,6 @@ textarea.form-control {
   }
   .progress-line {
     margin: 0 0.5rem;
-    margin-bottom: 22px;
+    margin-top: 14px; /* Perfectly aligns with center of 32px circle */
   }
 }
